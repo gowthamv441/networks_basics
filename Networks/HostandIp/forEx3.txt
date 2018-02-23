@@ -1,0 +1,5 @@
+Step 1: sudo aptitude install xinetd
+
+Step 2: Next you'll need to enable the daytime and echo services by editing their config files in /etc/xinetd.d (you should only need to change the disable option from yes to no)
+
+Step 3: sudo invoke-rc.d xinetd reload
